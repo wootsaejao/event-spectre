@@ -19,4 +19,8 @@ export default {
 $primary: #FD0000;
 $size-6: 17px;
 @import "~bulma";
+
+.container {
+    max-width: 700px;
+}
 </style>
