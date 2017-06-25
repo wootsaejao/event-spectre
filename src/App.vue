@@ -6,9 +6,17 @@
 
 <script>
 export default {
-    name: 'app'
+    name: 'app',
+    components: {
+    }
 }
 </script>
 
-<style>
+<style lang="scss">
+@import '~normalize.css';
+@import '~font-awesome/css/font-awesome.css';
+
+$primary: #FD0000;
+$size-6: 17px;
+@import "~bulma";
 </style>
